@@ -1,0 +1,25 @@
+:root{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1d086b;
+    color: white;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+main{
+    display: flex;
+    gap: .1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25rem;
+}
+.time, span{
+    font-size: 4.8rem;
+}
